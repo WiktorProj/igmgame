@@ -39,13 +39,13 @@ Buildings
 		unlocked
 
 Upgrades
-	*parsley
+	*yellowFlower
 		name:Yellow Flower
 		desc:Bringing some like into the ying forests!<//><b>Effect:</b><.>+1 ying tree/click
 		icon:https://file.garden/Z1nYEhMoRk1gYOwX/FBWClicker/yellow_flower.png
 		cost:100 yingTree
 		passive:increase yingTree yield of yingButton by 1
-		req: 1 yac
+		req: yac>=1
 
 Achievements
 	*yingTreeAch
