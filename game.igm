@@ -31,7 +31,7 @@ Resources
 
 Shinies
 	*goldDrop
-		on click:log Woop
+		on click:log *gold collection sound*
 		movement:onRight moveLeft fade bounce:0.05
 		frequency:60
 		frequency variation:30
