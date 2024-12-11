@@ -44,10 +44,16 @@ Achievements
 		desc:Have <b>1</b> ying tree.
 		req:1 yingTree
 		on click:anim glow
-		icon:  https://file.garden/Z1nYEhMoRk1gYOwX/FBWClicker/ying_tree.png
+		icon:https://file.garden/Z1nYEhMoRk1gYOwX/FBWClicker/ying_tree.png
 	*yingForestAch
 		name:Ying Forest
 		desc:Have <b>25</b> ying tree.
 		req:25 yingTree
 		on click:anim glow
-		icon: https://file.garden/Z1nYEhMoRk1gYOwX/FBWClicker/ying_trees.png
+		icon:https://file.garden/Z1nYEhMoRk1gYOwX/FBWClicker/ying_trees.png
+	*yingAirAch
+		name:Ying Air
+		desc:Have <b>1</b> ying air cube. Recursive ying forests!
+		req:1 yac
+		on click:anim glow
+		icon:https://file.garden/Z1nYEhMoRk1gYOwX/FBWClicker/ying_air.png
