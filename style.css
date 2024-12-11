@@ -1,6 +1,6 @@
-* {}
+* {font-family: wr;}
 
 @font-face {
-    font-family: myFirstFont;
+    font-family: wr;
     src: url("https://github.com/WiktorProj/igmgame/raw/refs/heads/main/whitrabt.ttf");
 }
