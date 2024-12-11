@@ -28,3 +28,17 @@ Resources
 		icon:https://file.garden/Z1nYEhMoRk1gYOwX/FBWClicker/ying_tree.png
 		class:noBackground
 		show earned
+
+Achievements
+	*yingTreeAch
+		name:Ying Tree
+		desc:Have <b>1</b> ying tree.
+		req:1 yingTree
+		on click:anim glow
+		icon:  https://file.garden/Z1nYEhMoRk1gYOwX/FBWClicker/ying_tree.png
+	*yingForestAch
+		name:Ying Forest
+		desc:Have <b>25</b> ying tree.
+		req:25 yingTree
+		on click:anim glow
+		icon: https://file.garden/Z1nYEhMoRk1gYOwX/FBWClicker/ying_trees.png
