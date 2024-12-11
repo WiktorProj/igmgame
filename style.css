@@ -1,6 +1,3 @@
-@font-face {
-    font-family: wr;
-    src: url(https://www.1001fonts.com/download/font/white-rabbit.regular.ttf);
+div {
+    font-family: 'White Rabbit';
 }
-
-div {font-family: wr;}
