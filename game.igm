@@ -7,4 +7,16 @@ Let's make a game!
 
 Settings
     background:https://file.garden/Z1nYEhMoRk1gYOwX/FBWClicker/block_concrete_border.jpg
-    stylesheet:stuff/bigBlue.css
+
+Buttons
+	*yingTree
+		name:Create a ying tree
+		desc:Click this ying tree to make more ying trees!
+		on click:anim icon wobble
+		on click:yield 1 bunny
+		icon:https://file.garden/Z1nYEhMoRk1gYOwX/FBWClicker/block_dark_green_border.jpg
+		no text
+		class:bigButton hasFlares
+		icon class:shadowed
+		tooltip origin:bottom
+		tooltip class:red
