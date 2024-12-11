@@ -13,6 +13,7 @@ Buttons
 		name:Create a ying tree
 		desc:Click this to make a ying tree!
 		on click:anim icon wobble
+		on click:yield 1 yingTree
 		icon:https://file.garden/Z1nYEhMoRk1gYOwX/FBWClicker/block_dark_green_border.jpg
 		no text
 		class:bigButton hasFlares
