@@ -29,6 +29,15 @@ Resources
 		class:noBackground
 		show earned
 
+Buildings
+	*yac
+		name:Ying air cube|Ying air cubes
+		desc:A ying air cube. These spawn in the ying air, and have ying forests inside of them! +0.1 ying trees/s
+		icon:https://file.garden/Z1nYEhMoRk1gYOwX/FBWClicker/block_concrete_border.jpg
+		cost:50 yingTree
+		on tick:yield 0.1 yingTree
+		unlocked
+
 Achievements
 	*yingTreeAch
 		name:Ying Tree
