@@ -9,9 +9,9 @@ Settings
     background:https://file.garden/Z1nYEhMoRk1gYOwX/FBWClicker/block_concrete_border.jpg
 
 Buttons
-	*yingTree
+	*yingButton
 		name:Create a ying tree
-		desc:Click this ying tree to make more ying trees!
+		desc:Click this to make a ying tree!
 		on click:anim icon wobble
 		icon:https://file.garden/Z1nYEhMoRk1gYOwX/FBWClicker/block_dark_green_border.jpg
 		no text
@@ -19,3 +19,11 @@ Buttons
 		icon class:shadowed
 		tooltip origin:bottom
 		tooltip class:red
+
+Resources
+	*yingTree
+		name:Ying Tree|Ying Trees
+		desc:These are your ying trees.
+		icon:https://file.garden/Z1nYEhMoRk1gYOwX/FBWClicker/ying_tree.png
+		class:noBackground
+		show earned
