@@ -2,11 +2,18 @@ Let's make a game!
     name:FBW Clicker
     by:wk
     desc:A clicker game about FBW!
-    created:11.12.2024
+    created:11/12/2024
     version:1
 
 Settings
     background:https://file.garden/Z1nYEhMoRk1gYOwX/FBWClicker/block_concrete_border.jpg
+
+CSS
+	.thing-icon,.particle
+	{
+		width:128px;
+		height:128px;
+	}
 
 Buttons
 	*yingButton
@@ -40,7 +47,7 @@ Shinies
 		on click:
 			$amnt = floor(frandom(0.5,3) * yingTree)
 			yield $amnt yingTree
-			toast You got $amnt ying trees from the gold drop!
+			toast You got [$amnt] ying trees from the gold drop!
 		end
 
 Buildings
@@ -55,7 +62,7 @@ Buildings
 Upgrades
 	*yellowFlower
 		name:Yellow Flower
-		desc:Bringing some like into the ying forests!<//><b>Effect:</b><.>+1 ying tree/click
+		desc:Bringing some life into the ying forests!<//><b>Effect:</b><.>+1 ying tree/click
 		icon:https://file.garden/Z1nYEhMoRk1gYOwX/FBWClicker/yellow_flower.png
 		cost:100 yingTree
 		passive:increase yingTree yield of yingButton by 1
