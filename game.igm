@@ -29,6 +29,20 @@ Resources
 		class:noBackground
 		show earned
 
+Shinies
+	*goldDrop
+		on click:log Woop
+		movement:onRight moveLeft fade bounce:0.05
+		frequency:60
+		frequency variation:30
+		icon:https://file.garden/Z1nYEhMoRk1gYOwX/FBWClicker/ent_gold1.jpg
+		class:bigButton
+		on click:
+			$amnt = floor(frandom(0.5,3) * yingTree)
+			yield $amnt ying tree
+			toast You got $amnt ying trees from the gold drop!
+		end
+
 Buildings
 	*yac
 		name:Ying air cube|Ying air cubes
