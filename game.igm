@@ -38,6 +38,15 @@ Buildings
 		on tick:yield 0.1 yingTree
 		unlocked
 
+Upgrades
+	*parsley
+		name:Yellow Flower
+		desc:Bringing some like into the ying forests!<//><b>Effect:</b><.>+1 ying tree/click
+		icon:https://file.garden/Z1nYEhMoRk1gYOwX/FBWClicker/yellow_flower.png
+		cost:100 yingTree
+		passive:increase yingTree yield of yingButton by 1
+		req: 1 yac
+
 Achievements
 	*yingTreeAch
 		name:Ying Tree
@@ -47,7 +56,7 @@ Achievements
 		icon:https://file.garden/Z1nYEhMoRk1gYOwX/FBWClicker/ying_tree.png
 	*yingForestAch
 		name:Ying Forest
-		desc:Have <b>25</b> ying tree.
+		desc:Have <b>25</b> ying trees.
 		req:25 yingTree
 		on click:anim glow
 		icon:https://file.garden/Z1nYEhMoRk1gYOwX/FBWClicker/ying_trees.png
