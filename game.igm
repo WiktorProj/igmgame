@@ -39,7 +39,7 @@ Shinies
 		class:bigButton
 		on click:
 			$amnt = floor(frandom(0.5,3) * yingTree)
-			yield $amnt ying tree
+			yield $amnt yingTree
 			toast You got $amnt ying trees from the gold drop!
 		end
 
