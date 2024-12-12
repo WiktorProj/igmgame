@@ -43,7 +43,6 @@ Shinies
 		frequency:60
 		frequency variation:30
 		icon:https://file.garden/Z1nYEhMoRk1gYOwX/FBWClicker/ent_gold1.jpg
-		class:bigButton
 		on click:
 			$amnt = floor(frandom(0.5,3) * yingTree)
 			yield $amnt yingTree
@@ -74,6 +73,14 @@ Upgrades
 		cost:100 yingTree
 		passive:increase yingTree yield of yingButton by 1
 		req: yac>=1
+	*blackFlower
+		name:Black Flower
+		desc:Dark with a maze inside...<//><b>Effect:</b><.>+2 ying tree/click<.>+0.1 ying air cube ying tree gain
+		icon:https://file.garden/Z1nYEhMoRk1gYOwX/FBWClicker/black_flower.png
+		cost:1000 yingTree
+		passive:increase yingTree yield of yac by 0.1
+		passive:increase yingTree yield of yingButton by 2
+		req: shrinkRing>=1
 
 Achievements
 	*yingTreeAch
