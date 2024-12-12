@@ -63,6 +63,7 @@ Buildings
 		desc:Allows you to shrink, to uncover more ying trees. +1 ying trees/s
 		icon:https://file.garden/Z1nYEhMoRk1gYOwX/FBWClicker/shrink_ring.png
 		cost:500 yingTree
+		on tick:yield 1 yingTree
 		req:yac>=10
 
 Upgrades
