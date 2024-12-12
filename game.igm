@@ -58,6 +58,12 @@ Buildings
 		cost:50 yingTree
 		on tick:yield 0.1 yingTree
 		unlocked
+	*shrinkRing
+		name:Shrink ring|Shrink rings
+		desc:Allows you to shrink, to uncover more ying trees. +1 ying trees/s
+		icon:https://file.garden/Z1nYEhMoRk1gYOwX/FBWClicker/shrink_ring.png
+		cost:500 yingTree
+		req:10 yac:earned
 
 Upgrades
 	*yellowFlower
