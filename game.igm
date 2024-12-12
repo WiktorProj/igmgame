@@ -75,11 +75,12 @@ Upgrades
 		req: yac>=1
 	*blackFlower
 		name:Black Flower
-		desc:Dark with a maze inside...<//><b>Effect:</b><.>+2 ying tree/click<.>+0.1 ying air cube ying tree gain
+		desc:Dark with a maze inside...<//><b>Effect:</b><.>+2 ying tree/click<.>+0.1 ying air cube ying tree gain<.>-1 ying tree per second
 		icon:https://file.garden/Z1nYEhMoRk1gYOwX/FBWClicker/black_flower.png
 		cost:1000 yingTree
-		passive:increase yingTree yield of yac by 0.1
+		passive:increase yield of yac by 0.1
 		passive:increase yingTree yield of yingButton by 2
+		passive:lose 1 yingTree
 		req: shrinkRing>=1
 
 Achievements
